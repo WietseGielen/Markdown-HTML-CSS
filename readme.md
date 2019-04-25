@@ -1,125 +1,54 @@
 ```
 
-<html>
+div {
+    border: 30px solid;
+    border-radius: 15px 15px;
+    border-style: outset;
+    width: 1000px;
+    text-align: center; 
+    background-color: rgb(233, 229, 205);
+    margin: auto; 
+}
 
-<head>
-    <title>HTML Excercise</title>
-    <link href="CSS.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-    <!--- Banner -->
-    <div>
-        <img src="https://wakatime.com/static/img/editor-icons/vs-code-128.png">
-        <img src="https://opencollective-production.s3-us-west-1.amazonaws.com/3c5f5d70-ce39-11e7-ae39-cb1f4eb45be3.png">
-        <img src="https://dfsuknfbz46oq.cloudfront.net/p/icons/eclipse.png">
-        <img src="https://d2.alternativeto.net/dist/icons/codelite_104417.png?width=128&height=128&mode=crop&upscale=false">
-        <img src="https://findicons.com/files/icons/727/leopard/128/xcode.png">
-        <h1>Comparison of Integrated Development Environments (IDE)</h1>
+body {
+    background-color: rgb(0, 51, 61);
+    font-family: 'Lucida Sans', 'Geneva';
+    color: white;
+}
 
-        <!-- Table -->
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Positive</th>
-                    <th>Negative</th>
-                    <th>Download link</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>Visual Studio Code</th>
-                    <td>
-                        <ul>
-                            <li>Lots of programming languages</li>
-                            <li>Clean interface</li>
-                        </ul>
-                    </td>
-                    <td> 
+table {
+   background-color: white;
+   color: black;
+   margin: auto;
+}
 
-                    </td>
-                    <td><a href="https://code.visualstudio.com/download">Download</a></td>
-                </tr>
-                <tr>
-                    <th>Spyder</th>
-                    <td>
-                        <ul>
-                            <li>Handy for data analysis</li>
-                        </ul>
-                    </td>
-                    <td> 
-                        <ul>
-                            <li>Only downloadable trough <b>Anaconda</b> or <b>pip install</b></li>
-                            <li>Ony Python is possible</li>
-                        </ul>
-                    </td>
-                    <td><a href="https://docs.spyder-ide.org/installation.html">Download</a></td>
-                </tr>
-                <tr>
-                    <th>Eclipse</th>
-                    <td>
-                        <ul>
-                            <li>Famous for Java</li>
-                            <li>C/C++ and PHP is also possible</li>
-                            <li>Has a cloud IDE</li>
-                        </ul>
-                    </td>
-                    <td> 
+thead {
+    text-decoration: underline;
+}
 
-                    </td>
-                    <td><a href="https://www.eclipse.org/downloads/">Download</a></td>
-                </tr>
-                <tr>
-                    <th>CodeLite</th>
-                    <td>
+th {
+    background-color: rgb(77, 124, 160);
+    text-align: center;
+}
 
-                    </td>
-                    <td>
-                        <ul>
-                            <li>It looks simple</li>
-                        </ul>
-                    </td>
-                    <td><a href="https://downloads.codelite.org/">Download</a></td>
-                </tr>
-                <tr>
-                    <th>Xcode</th >
-                    <td>
-                        <ul>
-                            <li>Handy for making iOS apps</li>
-                        </ul>
-                    </td>
-                    <td> 
-                        <ul>
-                            <li>Only works on macOS</li>
-                            <li>You need the latest version of Xcode</li>
-                        </ul>
-                    </td>
-                    <td><a href="https://developer.apple.com/download//">Download</a></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+h1 {
+    text-align: center;
+    color: black;
+}
 
-    <br>
+h2 {
+    text-decoration: underline;
+}
 
-    <blockquote><b>TO DO:</b> find a way to make clean borders in table</blockquote>
+blockquote {
+    border: 3px solid black;
+    background-color: rgb(185, 185, 185);
+    color: red;
+}
 
-    <hr>
-    
-    <h2>My favourite IDE = <i>Visual Studio Code</i></h2>
-
-    <!-- Numbered list with sublist -->
-    <ol>
-        <li>Clean layout</li>
-        <li>It's free</li>
-        <li>Alot of possible coding languages</li>
-        <ul>
-            <li>Python</li>
-            <li>C++</li>
-            <li>CSS</li>
-            <li>...</li>
-        </ul>
-    </ol>
+hr {
+    border: 1px solid white;
+}
 
     <h2>My tasklist</h2>
 
